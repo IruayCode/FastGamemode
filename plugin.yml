@@ -1,0 +1,26 @@
+name: FastGamemode
+version: 1.0.0
+api: 5.0.0
+author: Iruay
+main: Iruay\FastGamemode\FastGamemodePlugin
+
+permissions:
+  fastgamemode.use:
+    description: "Allows you to use the game mode change commands"
+    default: op
+
+commands:
+  gmc:
+    description: "Switch to Creative Mode"
+    usage: "/gmc"
+    permission: fastgamemode.use
+
+  gms:
+    description: "Switch to Survival Mode"
+    usage: "/gms"
+    permission: fastgamemode.use
+
+  gmsp:
+    description: "Switch to Spectator Mode"
+    usage: "/gmsp"
+    permission: fastgamemode.use
